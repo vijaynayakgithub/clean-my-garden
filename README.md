@@ -1,4 +1,4 @@
-# Clean My Garden: Setup Guide
+# Clean My Garden
 
 ## About The Project
 
