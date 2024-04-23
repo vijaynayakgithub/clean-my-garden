@@ -8,7 +8,7 @@ const createPatient = catchAsync(async (req: Request, res: Response) => {
     await PatientService.createPatient(req.body);
     sendResponse(res, {
         statusCode: 200,
-        message: 'Successfully Patient Created !!',
+        message: 'Successfully Customer Created !!',
         success: true
     })
 })
@@ -17,7 +17,7 @@ const getAllPatients = catchAsync(async (req: Request, res: Response) => {
     const result = await PatientService.getAllPatients();
     sendResponse<Patient[]>(res, {
         statusCode: 200,
-        message: 'Successfully Get Patients !!',
+        message: 'Successfully Get Customer !!',
         success: true,
         data: result,
     })
@@ -27,7 +27,7 @@ const getPatient = catchAsync(async (req: Request, res: Response) => {
     const result = await PatientService.getPatient(req.params.id);
     sendResponse<Patient>(res, {
         statusCode: 200,
-        message: 'Successfully Get Patient !!',
+        message: 'Successfully Get Customer !!',
         success: true,
         data: result,
     })
@@ -37,7 +37,7 @@ const deletePatient = catchAsync(async (req: Request, res: Response) => {
     const result = await PatientService.deletePatient(req.params.id);
     sendResponse<Patient>(res, {
         statusCode: 200,
-        message: 'Successfully Deleted Patient !!',
+        message: 'Successfully Deleted Customer !!',
         success: true,
         data: result,
     })
@@ -47,7 +47,7 @@ const updatePatient = catchAsync(async (req: Request, res: Response) => {
     const result = await PatientService.updatePatient(req);
     sendResponse<Patient>(res, {
         statusCode: 200,
-        message: 'Successfully Updated Patient !!',
+        message: 'Successfully Updated Customer !!',
         success: true,
         data: result
     })

@@ -14,11 +14,11 @@ const Footer = () => {
 							<div className="footer-widget footer-about">
 								<div className="footer-logo">
 									<Link to={'/'}>
-										<img src={logo} alt="logo" style={{ maxWidth: '160px' }} />
+										<img src={logo} alt="logo" style={{ maxWidth: '60px' }} />
 									</Link>
 								</div>
 								<div className="footer-about-content">
-									<p className='form-text' style={{maxWidth:200}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									<p className='form-text' style={{maxWidth:200}}>Our dedicated team ensures meticulous care and attention to detail, leaving your garden looking its absolute best.</p>
 								</div>
 							</div>
 						</div>

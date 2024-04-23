@@ -10,7 +10,7 @@ const createDoctor = catchAsync(async (req: Request, res: Response) => {
     const result = await DoctorService.create(req.body);
     sendResponse(res, {
         statusCode: 200,
-        message: 'Successfully Doctor Created !!',
+        message: 'Successfully Gardener Created !!',
         success: true,
         data: result
     })
@@ -22,7 +22,7 @@ const getAllDoctors = catchAsync(async (req: Request, res: Response) => {
     const result = await DoctorService.getAllDoctors(filter, options);
     sendResponse(res, {
         statusCode: 200,
-        message: 'Successfully Retrieve doctors !!',
+        message: 'Successfully Retrieve gardeners !!',
         success: true,
         data: result,
     })
@@ -32,7 +32,7 @@ const getDoctor = catchAsync(async (req: Request, res: Response) => {
     const result = await DoctorService.getDoctor(req.params.id);
     sendResponse<Doctor>(res, {
         statusCode: 200,
-        message: 'Successfully Get Doctor !!',
+        message: 'Successfully Get Gardener !!',
         success: true,
         data: result,
     })
@@ -42,7 +42,7 @@ const deleteDoctor = catchAsync(async (req: Request, res: Response) => {
     const result = await DoctorService.deleteDoctor(req.params.id);
     sendResponse<Doctor>(res, {
         statusCode: 200,
-        message: 'Successfully Deleted Doctor !!',
+        message: 'Successfully Deleted Gardener !!',
         success: true,
         data: result,
     })
@@ -52,7 +52,7 @@ const updateDoctor = catchAsync(async (req: Request, res: Response) => {
     const result = await DoctorService.updateDoctor(req);
     sendResponse<Doctor>(res, {
         statusCode: 200,
-        message: 'Successfully Updated Doctor !!',
+        message: 'Successfully Updated Gardener !!',
         success: true,
         data: result,
     })

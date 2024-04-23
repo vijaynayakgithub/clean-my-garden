@@ -10,7 +10,7 @@ const Service = () => {
         <section className="container" style={{marginTop: 200, marginBottom:200}}>
             <div className='mb-5 section-title text-center'>
                 <h2>Services</h2>
-                <p className='m-0'>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p className='m-0'>Experience our dedication firsthand</p>
             </div>
             <div className="container">
                 <div className="row align-items-center">
@@ -28,7 +28,7 @@ const Service = () => {
                     <div className="col-lg-4">
                         <div className="service-content ps-4 mt-4 mt-lg-0">
                             <h2>Home care <br />Clean living</h2>
-                            <p className="mt-4 mb-5 text-secondary form-text">We provide best leading garden service Nulla perferendis veniam deleniti ipsum officia dolores repellat laudantium obcaecati neque.</p>
+                            <p className="mt-4 mb-5 text-secondary form-text">Transform your outdoor space with our expert garden cleaning services. Revitalize your home's exterior and enhance its curb appeal</p>
                             <Link to={'/service'} className="btn-get-started scrollto">Services</Link>
                         </div>
                     </div>

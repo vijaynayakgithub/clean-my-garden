@@ -9,7 +9,7 @@ const HeroSection = () => {
                 <div>
                     <small>CLEAN MY GARDEN SOLUTION</small>
                     <h1>Your Most Trusted <br />Gardening Partner</h1>
-                    <small>A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</small>
+                    <small>Achieve garden perfection with Clean My Garden Solution. Our expert team ensures meticulous care and attention to detail, leaving your outdoor space pristine and beautiful. Trust us to transform your garden into a haven of natural beauty</small>
                 </div>
                 <div className="d-flex justify-content-start gap-2">
                     <Link to={'/doctors'} className="btn-get-started scrollto">Get Started</Link>

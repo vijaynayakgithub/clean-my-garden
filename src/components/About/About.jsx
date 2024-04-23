@@ -63,15 +63,15 @@ const About = () => {
     return (
         <>
             <Header />
-            <SubHeader title="about us" subtitle="Lorem ipsum dolor sit amet consectetur adipisicing." />
+            <SubHeader title="about us" subtitle="Learn about our journey and dedication." />
             <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
                 <div className="row p-5">
                     <div className="col-lg-4">
                         <div className='section-title text-center'>
                             <h2 className='text-uppercase'>Our Cleaners Acheivement</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet.</p>
+                            <p className='form-text m-0'>Discover the story behind our passion.</p>
                         </div>
-                        <p className='mt-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quod laborum alias. Vitae dolorum, officia sit! Saepe ullam facere at, consequatur incidunt, quae esse, quis ut reprehenderit dignissimos, libero delectus.</p>
+                        <p className='mt-3'>Our Cleaners, we take pride in the exceptional achievements of our dedicated team. With a commitment to excellence and a passion for perfection, our cleaners work tirelessly to ensure every task is completed to the highest standard. </p>
                     </div>
 
                     <div className="col-lg-8">
@@ -93,7 +93,7 @@ const About = () => {
                     <div className="col-lg-6 offset-lg-6">
                         <div className='mb-4 section-title text-center'>
                             <h2 className='text-uppercase'>What We Say</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsum!</p>
+                            <p className='form-text m-0'>Our words reflect our commitment to excellence.</p>
                         </div>
                     </div>
                 </div>

@@ -48,7 +48,7 @@ const DoctorProfile = () => {
     return (
         <>
             <Header />
-            <SubHeader title='Gardener Details' subtitle='Lorem ipsum dolor sit amet.' />
+            <SubHeader title='Gardener Details' subtitle='Passionate professionals dedicated to cultivating beauty.' />
             <div className="container" style={{ marginBottom: '4rem', marginTop: '6rem' }}>
                 {content}
                 <div className='p-4 rounded' style={{ marginBottom: '7rem', backgroundColor: '#f3f3f3' }}>
